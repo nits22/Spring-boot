@@ -1,6 +1,6 @@
 package com.example.sample.library;
 
-import com.example.demo.dto.Response;
+import com.example.sample.dto.Response;
 
 public class Utility {
 
