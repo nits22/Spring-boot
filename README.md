@@ -41,3 +41,35 @@ mvn clean test
 * Password match case is handled using Lavenshtein distance.
        
 * Regex is used to match if the password meets criteria like atleast "At least 1 Upper case, 1 lower case ,least 1 numeric, 1 special character"
+
+## Curl Request
+
+Change Password API:
+
+```
+curl -X POST \
+  http://localhost:9090/user/changePassword \
+  -H 'Accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: de02720e-6a38-4e19-af34-e26d59dd154a' \
+  -H 'cache-control: no-cache' \
+  -d '{
+	"emailId":"nitishbector.it@gmail.com",
+	"oldPassword":"aB@#rtttridndjsijdijscijsAfnDFFKDX432",
+	"newPassword":"aB@#rtttridndjsijdijsDFFKDX4321123456754"
+}'
+```
+
+User API:
+
+```
+curl -X POST \
+  http://localhost:9090/user/addUser \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: aff53aed-9bdf-462b-a752-ef9c0d9cd997' \
+  -H 'cache-control: no-cache' \
+  -d '{
+	"email":"nitishbector1@gmail.com",
+	"password": "aB@#rtt tridnd jsijdi jscij sAfn DFFKDX432                "
+}'
+```
