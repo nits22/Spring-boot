@@ -76,7 +76,7 @@
       <file leaf-file-name="PasswordService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sample/service/PasswordService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
+            <state relative-caret-position="389">
               <caret line="68" column="66" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -480,7 +480,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sample/service/PasswordService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
+        <state relative-caret-position="389">
           <caret line="68" column="66" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
