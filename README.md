@@ -66,10 +66,10 @@ User API:
 curl -X POST \
   http://localhost:9090/user/addUser \
   -H 'Content-Type: application/json' \
-  -H 'Postman-Token: aff53aed-9bdf-462b-a752-ef9c0d9cd997' \
+  -H 'Postman-Token: f0ee319e-d6f1-48b7-8213-1f0f35f1aa06' \
   -H 'cache-control: no-cache' \
   -d '{
-	"email":"nitishbector1@gmail.com",
-	"password": "aB@#rtt tridnd jsijdi jscij sAfn DFFKDX432                "
+	"email":"nitishbector@gmail.com",
+	"password": "aB@#rtttridndjsijdijscijsAfnDFFKDX432"
 }'
 ```
