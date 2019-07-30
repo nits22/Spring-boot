@@ -20,10 +20,6 @@ public class PasswordService {
 		return true;
 	}
 
-	public boolean validateNewPassword(ChangePasswordBody changeBody) {
-
-		return true;
-	}
 
 	public int getAllMatchesCount(String compareStr) {
 		List<String> allMatches = new ArrayList<String>();
@@ -54,11 +50,6 @@ public class PasswordService {
 		PasswordService ps = new PasswordService();
 
 		System.out.println(ps.compareNewPasswordFromOld("aB@#rtttridndjsijdijscijsAfnDFFKDX432", "aB@#rtttridndjsijdijscijsAfnDFFKDX432"));
-
-		//System.out.println(ps.findDuplicateCharAndCheckNumbers("a2222B@$t3333tewe1a"));
-
-		//ps.checkUnwantedSpecialCharacters("aB@#rtttridndjsijdij scijsAfnDFFKDX432");
-
 		System.out.println("Agoda123 Hello123 Test@!!".length());
 		System.out.println(ps.calculate("Agoda123 Hello123 Test@!!", "Agoda123 Hello123 3@"));
 		System.out.println(ps.compareNewPasswordFromOld("Agoda123 Hello123 Test@!!", "Agoda123 Hello123 3@"));
@@ -73,29 +64,6 @@ public class PasswordService {
 		}
 		return false;
 	}
-
-	/*static int LCSubStr(char X[], char Y[], int m, int n)
-    {
-        int LCStuff[][] = new int[m + 1][n + 1];
-        int result = 0;
-
-        for (int i = 0; i <= m; i++)
-        {
-            for (int j = 0; j <= n; j++)
-            {
-                if (i == 0 || j == 0)
-                    LCStuff[i][j] = 0;
-                else if (X[i - 1] == Y[j - 1])
-                {
-                    LCStuff[i][j] = LCStuff[i - 1][j - 1] + 1;
-                    result = Integer.max(result, LCStuff[i][j]);
-                }
-                else
-                    LCStuff[i][j] = 0;
-            }
-        }
-        return result;
-    } */
 
 	//check duplicated chars and check numbers are 50% or more
 	public boolean findDuplicateCharAndCheckNumbers(String password) {
@@ -132,7 +100,6 @@ public class PasswordService {
 		}
 		return true;
 	}
-
 
 	/* calculate Lavenshtein distance */
 	public int calculate(String x, String y) {
