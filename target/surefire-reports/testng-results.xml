@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="9334" started-at="2019-07-30T14:21:09Z" finished-at="2019-07-30T14:21:18Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="9334" started-at="2019-07-30T14:21:09Z" finished-at="2019-07-30T14:21:18Z">
+      <class name="com.example.sample.ChangePasswordAPITests">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="10" started-at="2019-07-30T19:51:09Z" finished-at="2019-07-30T19:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="4636" started-at="2019-07-30T19:51:09Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-07-30T19:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-30T19:51:14Z" finished-at="2019-07-30T19:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:14Z" finished-at="2019-07-30T19:51:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.addDuplicateUserTest() throws java.io.UnsupportedEncodingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="30" started-at="2019-07-30T19:51:14Z" finished-at="2019-07-30T19:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="addDuplicateUserTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="addDuplicateUserTest" duration-ms="276" started-at="2019-07-30T19:51:14Z" finished-at="2019-07-30T19:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDuplicateUserTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="39" started-at="2019-07-30T19:51:14Z" finished-at="2019-07-30T19:51:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.addDuplicateUserTest() throws java.io.UnsupportedEncodingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:14Z" finished-at="2019-07-30T19:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1397" started-at="2019-07-30T19:51:14Z" finished-at="2019-07-30T19:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.addUserTest() throws java.io.UnsupportedEncodingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="12" started-at="2019-07-30T19:51:16Z" finished-at="2019-07-30T19:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="addUserTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="addUserTest" duration-ms="22" started-at="2019-07-30T19:51:16Z" finished-at="2019-07-30T19:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:16Z" finished-at="2019-07-30T19:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:16Z" finished-at="2019-07-30T19:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.addUserTest() throws java.io.UnsupportedEncodingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1328" started-at="2019-07-30T19:51:16Z" finished-at="2019-07-30T19:51:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPIInvalidEmailTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="10" started-at="2019-07-30T19:51:17Z" finished-at="2019-07-30T19:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="changePasswordAPIInvalidEmailTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="changePasswordAPIInvalidEmailTest" duration-ms="21" started-at="2019-07-30T19:51:17Z" finished-at="2019-07-30T19:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordAPIInvalidEmailTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:17Z" finished-at="2019-07-30T19:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:17Z" finished-at="2019-07-30T19:51:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPIInvalidEmailTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1135" started-at="2019-07-30T19:51:17Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPINullFieldsTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="9" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="changePasswordAPINullFieldsTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="changePasswordAPINullFieldsTest" duration-ms="42" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordAPINullFieldsTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPINullFieldsTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="5" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="changePasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="changePasswordAPITest" duration-ms="15" started-at="2019-07-30T19:51:18Z" data-provider="credentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@3f1d6a13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="changePasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="changePasswordAPITest" duration-ms="8" started-at="2019-07-30T19:51:18Z" data-provider="credentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@7cbf4f8c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="changePasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="changePasswordAPITest" duration-ms="5" started-at="2019-07-30T19:51:18Z" data-provider="credentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@55c46ec1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="4" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="changePasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="changePasswordAPITest" duration-ms="5" started-at="2019-07-30T19:51:18Z" data-provider="credentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@3eff6846]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="4" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="changePasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="changePasswordAPITest" duration-ms="20" started-at="2019-07-30T19:51:18Z" data-provider="credentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@6ae6d078]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPITest(com.example.sample.dto.ChangePasswordBody) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPIUnsupportedHttpMethodTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="6" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="changePasswordAPIUnsupportedHttpMethodTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="changePasswordAPIUnsupportedHttpMethodTest" duration-ms="8" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordAPIUnsupportedHttpMethodTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPIUnsupportedHttpMethodTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPIXmlContentTypeTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="changePasswordAPIXmlContentTypeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="changePasswordAPIXmlContentTypeTest" duration-ms="5" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordAPIXmlContentTypeTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.changePasswordAPIXmlContentTypeTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.givenWac_whenServletContext_thenItProvidesGreetController()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="givenWac_whenServletContext_thenItProvidesGreetController()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="givenWac_whenServletContext_thenItProvidesGreetController" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenWac_whenServletContext_thenItProvidesGreetController -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.givenWac_whenServletContext_thenItProvidesGreetController()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="2" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="7" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@6ca33187]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="14" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="9" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@1a67f8b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="6" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@5f1f0ee6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="4" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="3" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@326706d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="17" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="4" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="6" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@76fc5687]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="4" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@53fbb2b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="5" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@7434ee13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="4" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="6" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@44a14de0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="5" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="4" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@50fd739d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="5" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="4" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@5e1d1524]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="2" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="3" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@d0a2c82]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="5" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="3" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@430aae8e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="9" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="7" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="14" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@78504ce9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="4" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="4" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@4e52d2f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="2" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="5" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@12608986]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="2" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="6" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@4882b9a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="5" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidPasswordAPITest" duration-ms="7" started-at="2019-07-30T19:51:18Z" data-provider="invalidCredentialsProvider" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.sample.dto.ChangePasswordBody@7ec508e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAPITest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="beforeTest" is-config="true" duration-ms="4" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidUserTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidPasswordAPITest(com.example.sample.dto.ChangePasswordBody)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="invalidUserTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="invalidUserTest" duration-ms="10" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.sample.ChangePasswordAPITests.invalidUserTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.example.sample.ChangePasswordAPITests@6db9f5a4]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2019-07-30T19:51:18Z" finished-at="2019-07-30T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.example.sample.ChangePasswordAPITests -->
+    </test> <!-- testngTest -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>

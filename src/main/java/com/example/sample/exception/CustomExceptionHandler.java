@@ -1,6 +1,6 @@
 package com.example.sample.exception;
 
-import com.example.demo.library.Utility;
+import com.example.sample.library.Utility;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
