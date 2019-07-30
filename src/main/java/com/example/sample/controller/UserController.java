@@ -52,11 +52,4 @@ public class UserController {
 
 
 	}
-	@RequestMapping(method=RequestMethod.GET, value="/iUser")
-	public ResponseEntity updateUser() {
-
-		return new ResponseEntity(Utility.successResponse("User already exist with email id"), HttpStatus.OK);
-
-
-	}
 }

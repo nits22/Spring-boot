@@ -21,7 +21,7 @@ public class UserService {
 	public UserService() {
 
 		users.put("nitishbector.it@gmail.com", new User(UserCoreUtils.generateUUID("nitishbector.it@gmail.com"), "nitishbector.it@gmail.com", UserCoreUtils.generatePasswordToken("nitishbector.it@gmail.com", "aB@#rtttridndjsijdijscijsAfnDFFKDX432")));
-		users.put("nitish@gmail.com", new User(UserCoreUtils.generateUUID("nitish@gmail.com"), "nitish@gmail.com", UserCoreUtils.generatePasswordToken("nitishbector.it@gmail.com", "aB@#rtttridndjsijdijscijsAfnDFFKDX432")));
+		users.put("nitish@gmail.com", new User(UserCoreUtils.generateUUID("nitish@gmail.com"), "nitish@gmail.com", UserCoreUtils.generatePasswordToken("nitish@gmail.com", "aB@#rtttridndjsijdijscijsAfnDFFKDX432")));
 	}
 
 	public List<User> getAllMessages() {
